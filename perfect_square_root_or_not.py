@@ -9,4 +9,3 @@ if is_integer(n):
     print("True")
 else:
     print("False")
-    
