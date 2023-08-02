@@ -1,10 +1,7 @@
-r1=int(input())
-c1=int(input())
+r=int(input())
+c=int(input())
 a=[]
-b=[]
-for i in range(r1):
+for i in range(r):
     l=list(map(int,input().split()))
-    a.append(l)
-    j=sum(l)
-    b.append(j)
-print(sum(b))
+    a.append(sum(l))
+print(sum(a))
